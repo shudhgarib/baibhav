@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+   <link rel="stylesheet" href="admin-dashboard.css">
+</head>
+<body>
+    <h1>Welcome to Admin Dashboard</h1>
+
+    
+    <section id="profile">
+        <h2>Admin Profile</h2>
+        
+        <p>Name: Admin Name</p>
+        <p>Email: admin123@.com</p>
+        
+    </section>
+
+   
+    <section id="student-information">
+        <h2>Student Information</h2>
+       
+        <p>Student Name: shital | Attendance: 90%</p>
+        <p>Student Name: baibhav | Attendance: 85%</p>
+        <p>Student Name: swati | Attendance: 95%</p>
+        
+    </section>
+
+    
+    <section id="attendance-history">
+        <h2>Attendance History</h2>
+        
+        <ul>
+            <li>Date: march 10, 2024 | Status: Present</li>
+            <li>Date: march 11, 2024 | Status: Absent</li>
+             <li>Date: march 12, 2024 | Status: Present</li>
+    
+            
+        </ul>
+    </section>
+
+    
+    <section id="qr-scanner">
+        <h2>QR Scanner</h2>
+       
+        <p>Scan the QR code to mark attendance.</p>
+        
+        <button id="scan-button">Scan QR Code</button>
+    </section>
+
+    
+    <script>
+        
+        
+    document.getElementById('scan-button').addEventListener('click', function() {
+        // Redirect to the other page
+        window.location.href = 'qr-page-login.html';
+    });
+</script>
+    </script>
+</body>
+</html>

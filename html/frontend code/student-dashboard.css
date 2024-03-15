@@ -1,0 +1,67 @@
+/* Style for student dashboard
+body,
+h1,
+h2,
+p,
+li,
+button {
+  color: #fff; /* Set font color to white */
+
+
+/* Style for student dashboard */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('5630939.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Set default font color to white */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  background-color: #151516; /* Set background color for headings */
+  padding: 10px; /* Add padding for better appearance */
+}
+
+/* Student Profile */
+.profile {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Attendance History */
+.attendance-history {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* QR Scanner */
+#qr-scanner {
+  background-color: #0e0e0e; /* Set background color for QR scanner section */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.button {
+  background-color: #000; /* Set button background color to black */
+  color: #000; /* Set button text color to black */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #333; /* Darken button color on hover */
+}
+h1{
+    margin-left: 550px;
+    width: 510px;
+}

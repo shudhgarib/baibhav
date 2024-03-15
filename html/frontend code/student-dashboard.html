@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="student-dashboard.css">
+</head>
+<body>
+    <h1>Welcome to Student Dashboard</h1>
+
+    <section id="profile">
+        <h2>Student Profile</h2>
+        <p>Name: shital</p>
+        <p>Email: shital123@gmail.com.com</p>
+        <p>Roll Number: 12345</p>
+        
+    </section>
+
+    
+    <section id="attendance-history">
+        <h2>Attendance History</h2>
+        
+        <ul>
+            <li>Date: march 10, 2024 | Status: Present</li>
+            <li>Date: march 11, 2024 | Status: Absent</li>
+            <li>Date: march 12, 2024 | Status: Present</li>
+            <li>Date: march 13, 2024 | Status: Present</li>
+
+        </ul>
+    </section>
+
+    <!-- QR Scanner Option -->
+    <section id="qr-scanner">
+        <h2>QR Scanner</h2>
+        
+        <p>Scan the QR code to mark your attendance.</p>
+        
+        <button id="scan-button">Scan QR Code</button>
+    </section>
+
+    
+    <script>
+
+    document.getElementById('scan-button').addEventListener('click', function() {
+        // Redirect to the other page
+        window.location.href = 'qr-page-login.html';
+    });
+</script>
+    </script>
+</body>
+</html>
